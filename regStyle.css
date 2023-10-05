@@ -2,6 +2,11 @@
     margin:0;
     padding:0;
 }
+:root{
+    --color-30:#E9F1FA; 
+    --color-10:#00ABE4;
+    --color-60:#FFFFFF;
+}
 body{
     background-color: aliceblue;
     align-items: center;
@@ -19,14 +24,16 @@ body{
     border-radius: 3px;
     height:justify;
     width:20rem;
-    margin:20vh 0 0 60vw;
+    margin:20vh 0 0 40vw;
     padding:10px;
 }
 .log ,.Heading{
     text-align: center;
     margin: 0.5em;
     color:#FF9933;
-}
+    text-decoration: underline;
+    text-decoration-thickness:0.13em ;
+}  
 .field{
     border:1px solid;
     border-radius: 3px;
@@ -46,6 +53,10 @@ body{
    
     border-radius:5px ;
 }
+.fieldTitle{
+    align-self: flex-start;
+    margin: 10px 0 0 10px;
+}
 .Fpassword{
     align-self: start;
     margin:5px;
@@ -54,22 +65,24 @@ body{
 a:hover{
     color: rgb(80, 80, 201);
 }
-.SubButton{
-    margin:1em;
+.SubButton {
+    margin: 1em;
     width: 80%;
     padding: 0.3em;
     font-size: 1.2em;
     background: linear-gradient(to right, #fc4a1a, #f7b733);
-    border:1px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     color: #f1eeeb;
     letter-spacing: 0.025em;
     font-weight: 600;
+}
 
-}
-.SubButton:hover{
+.SubButton:hover {
     cursor: pointer;
+    
 }
+
 hr{
     background-color:rgb(219, 219, 219);
     width: 80%;
@@ -92,4 +105,43 @@ hr{
  margin:1em;
  font-size:1.2em;
  cursor: pointer;
+}
+/* profile page css */
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width:100%;
+    margin-bottom: 1em;
+}
+.Profnav{
+    background-color:var(--color-30);
+}
+.LOGO{
+    justify-self:flex-start;
+    color: #f7b733;
+}
+.baroption{
+    margin: 0 30px 0 30px;
+    cursor:pointer;
+    background-color: var(--color-30);
+    padding: 5px;
+    border-radius: 5px;
+}
+.baroption:hover{
+    background-color: var(--color-10);
+    color:var(--color-60);
+    box-shadow: 3px 3px 5px var(--color-10) ;
+}
+.cover{
+    background: url(Cover.jpg);
+    background-color:gray;
+    height:100px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom:1em;
+}
+.profile img{
+
 }
