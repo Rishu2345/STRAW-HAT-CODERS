@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: aliceblue;
+    align-items: center;
+}
+.flag{
+    position: absolute;
+    top:0;
+    height: 100dvh;
+}
+.loginblock,.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    height:justify;
+    width:20rem;
+    margin:13vh 0 0 60vw;
+    padding:10px;
+}
+.log ,.Heading{
+    text-align: center;
+    margin: 0.5em;
+    color:#FF9933;
+    text-decoration: underline;
+    /* border-bottom:5px solid #FF9933; */
+   
+}
+.field{
+    border:1px solid;
+    border-radius: 3px;
+    margin-top: 30px;
+    /* margin:0.5em ; */
+    height:2em;
+    width:90%;
+    font-size:1.02;
+    padding-left: 0.5em;
+}
+.field:hover{
+    border:1px solid #FF9933;
+}
+.field:focus{
+    outline: 3px solid #FF9933;
+    outline-offset:1px ;
+    border: none;
+   
+    border-radius:5px ;
+}
+.first{
+    width: 40%;
+    margin-left: -12em;
+}
+.last{
+    width: 40%;
+    margin-left: 12em;
+    margin-top: 3px;
+}
+.fname{
+    margin-bottom: -27px;
+    margin-left: -13em;
+    font-size: 1em;
+}
+.email{
+    margin-top: 20px;
+    margin-bottom: -27px;
+    margin-right: 10.9em;
+    font-size: 1em;
+}
+.pass{
+    margin-top: 20px;
+    margin-bottom: -27px;
+    margin-right: 10.2em;
+    font-size: 1em;
+}
+.passs{
+    margin-top: 20px;
+    margin-bottom: -27px;
+    margin-right: 13.9em;
+    font-size: 1em;
+}
+.lname{
+    margin-top: -50px;
+    margin-left: 114px;
+    font-size: 1em;
+}
+a:hover{
+    color: rgb(80, 80, 201);
+}
+.SubButton{
+    margin:1em;
+    width: 80%;
+    padding: 0.3em;
+    font-size: 1.2em;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    border:1px solid black;
+    border-radius: 5px;
+    color: #f1eeeb;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+
+}
+.SubButton:hover{
+    cursor: pointer;
+}
+hr{
+    background-color:rgb(219, 219, 219);
+    width: 80%;
+    height: 2px;
+    border:none;
+}
+.goggleimg{
+    height:2em;
+    /* display:none; */
+    margin:10px
+} 
+.continueWithG{ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border:1px solid gray;
+ border-radius: 5px;
+ width:80%;
+ height:40px;
+ margin:1em;
+ font-size:1.2em;
+ cursor: pointer;
+}
